@@ -2,7 +2,7 @@
 
  - [x] Make it deploy with vercel
  - [x] Basic UI with mock data
- - [ ] Set up proper postgres database
+ - [x] Set up proper postgres database
  - [ ] Connect database with UI
  - [ ] Implement authentication with clerk
  - [ ] Add image uploading
