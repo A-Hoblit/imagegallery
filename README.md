@@ -1,6 +1,6 @@
 # Gallery App Roadmap
 
- - [ ] Make it deploy with vercel
+ - [x] Make it deploy with vercel
  - [ ] Basic UI with mock data
  - [ ] Set up proper postgres database
  - [ ] Connect database with UI
