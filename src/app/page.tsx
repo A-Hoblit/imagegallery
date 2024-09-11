@@ -2,10 +2,8 @@ import { db } from "~/server/db";
 
 export const dynamic = "force-dynamic";
 import {
-  SignInButton,
   SignedIn,
   SignedOut,
-  UserButton
 } from '@clerk/nextjs'
 
 async function Images() {
@@ -30,7 +28,7 @@ export default async function HomePage() {
     <main className="">
 
       <SignedOut>
-        <div className="h-full w-full text-2x1 text-center">Please sign in</div>
+        <div className="h-full w-full text-2xl text-center">Please sign in</div>
       </SignedOut>
 
       <SignedIn>

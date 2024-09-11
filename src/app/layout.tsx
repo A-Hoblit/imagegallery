@@ -4,12 +4,7 @@ import { GeistSans } from "geist/font/sans";
 import { type Metadata } from "next";
 import { ClerkProvider } from '@clerk/nextjs'
 import { TopNav } from "./_components/topnav";
-import {
-  SignInButton,
-  SignedIn,
-  SignedOut,
-  UserButton
-} from '@clerk/nextjs'
+
 
 export const metadata: Metadata = {
   title: "Hoblit Gallery",
@@ -30,6 +25,5 @@ export default function RootLayout({
           </body>
       </html>
     </ClerkProvider>
-
   );
 }
