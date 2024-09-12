@@ -1,4 +1,5 @@
 import { db } from "~/server/db";
+import { UploadButton } from "~/utils/uploadthing";
 
 export const dynamic = "force-dynamic";
 import {
