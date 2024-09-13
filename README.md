@@ -5,7 +5,7 @@
  - [x] Set up proper postgres database
  - [x] Connect database with UI
  - [x] Implement authentication with clerk
- - [ ] Add image uploading
+ - [x] Add image uploading
  - [ ] Error handling with sentry
  - [ ] Routing image page
  - [ ] Image delete button server actions
@@ -23,7 +23,8 @@ QOL NOTES:
     },
 ```
 
-2. OPTIONAL In package.json, enabling '--turbo' for the dev command makes
+2. OPTIONAL In package.json, enabling '--turbo' for the dev command; ~10x faster compiles.
+ - NOTE: not compatible with using Sentry local testing
 ``` 
   "scripts": {
     "dev": "next dev --turbo",

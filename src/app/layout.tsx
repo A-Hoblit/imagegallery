@@ -5,9 +5,9 @@ import { GeistSans } from "geist/font/sans";
 import { type Metadata } from "next";
 import { ClerkProvider } from '@clerk/nextjs'
 import { TopNav } from "./_components/topnav";
-import { ourFileRouter } from "./api/uploadthing/core";
-import { extractRouterConfig } from "uploadthing/server";
 import { NextSSRPlugin } from "@uploadthing/react/next-ssr-plugin";
+import { extractRouterConfig } from "uploadthing/server";
+import { ourFileRouter } from "./api/uploadthing/core";
 
 export const metadata: Metadata = {
   title: "Hoblit Gallery",
