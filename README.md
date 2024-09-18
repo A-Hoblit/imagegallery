@@ -6,8 +6,8 @@
 - [x] Connect database with UI
 - [x] Implement authentication with clerk
 - [x] Add image uploading
-- [ ] Error handling with sentry
-- [ ] Routing image page
+- [x] Error handling with sentry
+- [x] Routing image page
 - [ ] Image delete button server actions
 - [ ] Analytics with posthog
 - [ ] Ratelimiting with upstash
