@@ -8,8 +8,8 @@
 - [x] Add image uploading
 - [x] Error handling with sentry
 - [x] Routing image page
+- [x] Analytics with posthog
 - [ ] Image delete button server actions
-- [ ] Analytics with posthog
 - [ ] Ratelimiting with upstash
 
 QOL NOTES:

@@ -2,6 +2,7 @@
 
 import { SignInButton, SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
 import { useRouter } from "next/navigation";
+import posthog from "posthog-js";
 import { UploadButton } from "~/utils/uploadthing";
 
 export function TopNav() {
@@ -19,6 +20,7 @@ export function TopNav() {
           <UploadButton
             endpoint="imageUploader"
             onClientUploadComplete={() => {
+              posthog.capture("Upload");
               router.refresh();
             }}
           />
