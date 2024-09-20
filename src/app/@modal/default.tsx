@@ -1,6 +1,6 @@
 
 
 
-export default function Default() {
+export default function DefaultModalNull() {
     return null;
 }
