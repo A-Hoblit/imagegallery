@@ -1,3 +1,5 @@
+This application is a fully-featured image gallery application on a serverless architecture.
+
 # Gallery App Roadmap
 
 - [x] Make it deploy with vercel
@@ -9,10 +11,21 @@
 - [x] Error handling with sentry
 - [x] Routing image page
 - [x] Analytics with posthog
-- [ ] Image delete button server actions
-- [ ] Ratelimiting with upstash
+- [x] Image delete button server actions
 
-QOL NOTES:
+# Technologies Used:
+
+1. Vercel for hosting, deployment and it's postgres database integration
+
+2. Clerk for authentication and user management
+
+3. UploadThing for image storage and hosting
+
+4. Sentry for error tracking and management
+
+5. Posthog for analytics tracking and management
+
+# QOL Notes
 
 1. OPTIONAL In next.config.js ignore ts and eslint errors and do it with github actions
 
