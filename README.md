@@ -1,4 +1,4 @@
-This application is a fully-featured image gallery application on a serverless architecture.
+This application is a fully-featured image gallery on a serverless architecture.
 
 # Gallery App Roadmap
 
