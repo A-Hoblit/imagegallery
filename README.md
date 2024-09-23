@@ -15,6 +15,8 @@ This application is a fully-featured image gallery on a serverless architecture.
 
 # Technologies Used:
 
+0. Typescript, React, and Tailwind. 
+
 1. Vercel for hosting, deployment and it's postgres database integration
 
 2. Clerk for authentication and user management
