@@ -1,4 +1,4 @@
-This application is a fully-featured image gallery application on a serverless architecture.
+This application is a fully-featured image gallery on a serverless architecture.
 
 # Gallery App Roadmap
 
@@ -14,6 +14,8 @@ This application is a fully-featured image gallery application on a serverless a
 - [x] Image delete button server actions
 
 # Technologies Used:
+
+0. Typescript, React, and Tailwind. 
 
 1. Vercel for hosting, deployment and it's postgres database integration
 
