@@ -18,12 +18,13 @@ export const ourFileRouter = {
       // If you throw, the user will not be able to upload
       if (!user.userId) throw new UploadThingError("Unauthorized");
 
-      // Check if the user is allowed to upload
+      /* Check if the user is allowed to upload
       const fullUserData = await clerkClient.users.getUser(user.userId);
       if (fullUserData?.privateMetadata?.["can-upload"] !== true) {
         throw new UploadThingError("User does not have permission to upload");
       }
-
+      */
+     
       // Whatever is returned here is accessible in onUploadComplete as `metadata`
       return { userId: user.userId };
     })
