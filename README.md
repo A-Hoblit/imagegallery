@@ -1,5 +1,7 @@
 This application is a fully-featured image gallery on a serverless architecture.
 
+Hosted with Vercel at: https://hoblitgallery.vercel.app
+
 # Gallery App Roadmap
 
 - [x] Make it deploy with vercel
