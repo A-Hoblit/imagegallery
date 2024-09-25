@@ -1,5 +1,3 @@
-
-
 export default function PageModalNull() {
-    return null;
-  }
+  return null;
+}

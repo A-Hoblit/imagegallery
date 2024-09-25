@@ -17,7 +17,6 @@ export async function getMyImages() {
   return images;
 }
 
-
 export async function getImage(id: number) {
   const user = auth();
   if (!user.userId) throw new Error("Unauthorized Access");
@@ -30,7 +29,7 @@ export async function getImage(id: number) {
 
   if (image.userId !== user.userId) throw new Error("Unauthorized");
 
-  return image
+  return image;
 }
 
 export async function deleteImage(id: number) {
@@ -41,13 +40,13 @@ export async function deleteImage(id: number) {
     .delete(images)
     .where(and(eq(images.id, id), eq(images.userId, user.userId)));
 
-    analyticsServerClient.capture({
-      distinctId: user.userId,
-      event: "delete image",
-      properties: {
-        imageId: id,
-      },
-    });
-    
-    redirect('/');
+  analyticsServerClient.capture({
+    distinctId: user.userId,
+    event: "delete image",
+    properties: {
+      imageId: id,
+    },
+  });
+
+  redirect("/");
 }

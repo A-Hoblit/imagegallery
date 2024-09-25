@@ -19,8 +19,8 @@ export const metadata: Metadata = {
 export default function RootLayout({
   children,
   modal,
-}: { 
-  children: React.ReactNode; 
+}: {
+  children: React.ReactNode;
   modal: React.ReactNode;
 }) {
   return (
@@ -37,11 +37,9 @@ export default function RootLayout({
             routerConfig={extractRouterConfig(ourFileRouter)}
           />
           <body className={`font-sans`}>
-            <div className="h-screen grid grid-rows-[auto,1fr]">
+            <div className="grid h-screen grid-rows-[auto,1fr]">
               <TopNav />
-              <main className="overflow-y-scroll">
-                {children}
-              </main>
+              <main className="overflow-y-scroll">{children}</main>
             </div>
 
             {modal}

@@ -62,6 +62,3 @@ const config = withSentryConfig(coreConfig, {
 });
 
 export default config;
-
-
-
